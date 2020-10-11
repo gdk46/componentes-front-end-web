@@ -1,0 +1,75 @@
+.presentation{
+	padding-left:var(--padding-l);
+	padding-right:var(--padding-r);
+	color:var(--color-2) ;
+}
+
+.presentation 
+	.presentation_sublititle{
+		font-size:2.8em;
+	}
+
+#presentation_text{
+	font-size:1.2rem;
+}
+#myName{
+	color: #00CCFF;
+}
+
+
+.img_foto{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+
+
+
+
+ul
+	.item_midia{
+		display: inline-block;
+		font-size:40px;
+		margin:0 20px 0 20px;
+	}
+
+
+ul
+.item_midia
+	a{
+		color:var(--color-2);
+	}
+
+
+
+
+
+
+
+
+@media (min-width:600px){
+	
+
+
+	.presentation{
+		padding:var(--padding-generic) 80px;
+	}
+	
+	.img_foto{
+		justify-content: start;
+		-ms-align-items: start;
+		align-items: start;
+	}
+
+	.presentation 
+		.presentation_sublititle{
+			font-size:3em;
+		}
+}

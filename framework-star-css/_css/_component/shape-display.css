@@ -1,0 +1,11 @@
+.none {display: none;}
+.block {display: block;}
+.inline {display: inline;}
+.inlineblock {display: inline-block;}
+.flex {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+}

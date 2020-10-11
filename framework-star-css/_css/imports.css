@@ -1,0 +1,81 @@
+/*  sctuture default - ITCSS
+- Settings
+   - Tool
+      - Generic
+         - Elements
+            - Objects
+               - Components
+                  - Utilitie (Trumps)
+*/
+/* ================ SETTINGS ================ */
+   @import './_settings/badyBg.css';
+   @import './_settings/brecks.css';
+   @import './_settings/defaultColorInput.css';
+   @import './_settings/defaultColorAlert.css';
+   @import './_settings/defaultColorButton.css';
+   @import './_settings/defaultColorLayout.css';
+   @import './_settings/defaultColorNav.css';
+   @import './_settings/defaultColorFooter.css';
+   @import './_settings/defaultColorCard.css';
+   @import './_settings/gaps.css';
+   @import './_settings/sizefull.css';
+
+
+
+/* ================ TOOL ================ */
+
+
+/* ================ GENERIC ================ */
+
+
+/* ================ ELEMENTS ================ */
+   @import './_element/reset.css';
+
+/* ================ OBEJECTS ================ */
+
+
+/* ================ COMPONENTS ================ */
+   @import './_component/font-typography.css';
+
+
+   @import './_component/grid/layout-flex.css';
+   @import './_component/grid/layout-grid.css';
+
+
+   @import './_component/layout/layout-draw.css';
+   @import './_component/layout/layout-line.css';
+   @import './_component/layout/layout-position.css';
+   
+
+   @import './_component/components/comp-alert.css';
+   @import './_component/components/comp-badge.css';
+   @import './_component/components/comp-button.css';
+   @import './_component/components/comp-card.css';
+   @import './_component/components/comp-chips.css';
+   @import './_component/components/comp-form.css';
+   @import './_component/components/comp-modal.css';
+   @import './_component/components/comp-switch.css';
+   @import './_component/components/comp-typography.css';
+   
+   
+
+
+   @import './_component/all-util.css';
+   @import './_component/shape-display.css';
+   @import './_component/shape-float.css';
+
+
+/* ================ UTILITIE ================ */
+   @import './_container/footer.css';
+   @import './_container/header.css';
+   @import './_container/nav.css';
+   @import './_container/section.css';
+   @import './_container/wallpaper.css';
+   @import './_container/wardrobe.css';
+
+
+   @import './_utilitie/nav.css';
+   @import './_utilitie/icon.css';
+   @import './_utilitie/presentation.css';
+   @import './_utilitie/project.css';
+   @import './_utilitie/aboutMe.css';

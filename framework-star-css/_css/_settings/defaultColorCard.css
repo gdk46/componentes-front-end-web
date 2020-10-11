@@ -1,0 +1,10 @@
+:root{
+    --badge-is_primary:#58dbc8;
+    --badge-is_link:#4179d3;
+    --badge-is_info:#00cfe8;
+    --badge-is_success:#52d158;
+    --badge-is_warning:#ff9f1a;
+    --badge-is_danger:#ea5455;
+    --badge-is_dark:#1d2d3d;
+    --badge-is_glitter:#a451d8;
+}
