@@ -45,6 +45,7 @@
    @import './_component/layout/layout-draw.css';
    @import './_component/layout/layout-line.css';
    @import './_component/layout/layout-position.css';
+   @import './_component/layout/layout-shadow.css';
    
 
    @import './_component/components/comp-alert.css';
@@ -58,6 +59,7 @@
    @import './_component/components/comp-modal.css';
    @import './_component/components/comp-pagination.css';
    @import './_component/components/comp-switch.css';
+   @import './_component/components/comp-table.css';
    @import './_component/components/comp-typography.css';
    
    
