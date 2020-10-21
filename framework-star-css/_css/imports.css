@@ -43,6 +43,7 @@
 
 
    @import './_component/layout/layout-draw.css';
+   @import './_component/layout/layout-img.css';
    @import './_component/layout/layout-line.css';
    @import './_component/layout/layout-position.css';
    @import './_component/layout/layout-shadow.css';
@@ -50,14 +51,18 @@
 
    @import './_component/components/comp-alert.css';
    @import './_component/components/comp-badge.css';
+   @import './_component/components/comp-blockquote.css';
    @import './_component/components/comp-breadcrumb.css';
    @import './_component/components/comp-button.css';
    @import './_component/components/comp-card.css';
    @import './_component/components/comp-chips.css';
+   @import './_component/components/comp-divider.css';
    @import './_component/components/comp-dotnav.css';
    @import './_component/components/comp-form.css';
    @import './_component/components/comp-modal.css';
    @import './_component/components/comp-pagination.css';
+   @import './_component/components/comp-progress.css';
+   @import './_component/components/comp-spinner.css';
    @import './_component/components/comp-switch.css';
    @import './_component/components/comp-table.css';
    @import './_component/components/comp-typography.css';

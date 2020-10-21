@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6,
 .text-right {text-align: right;}
 .text-middle {vertical-align: middle;}
 
-
+.text-color-little {color:var(--is_little);}
 .text-color-primary {color:var(--is_primary);}
 .text-color-link {color:var(--is_link);}
 .text-color-info {color:var(--is_info);}
