@@ -3,7 +3,7 @@ framework css star
 
 
 <h2> origem do nome do framework: </h2>
-Ao amor ao desconhido universo e suas estrelas como também ao desenvolvimento de algoritimos e desenvolvimento de soluções com programção, Star vem a ser uma solução de folha de estilo para facilitar a criação de interfaces.
+Ao amor ao desconhido universo e suas estrelas como também ao desenvolvimento de algoritimos e desenvolvimento de soluções com programação, Star vem a ser uma solução de folha de estilo para facilitar a criação de interfaces.
 
 <h2> soure of framework name:</h2>
 In love with the unknown universe and its stars as well as developing from algorithms and developing solutions with programming, Star has become a style sheet solution to facilitate the creation of interfaces.
@@ -19,7 +19,7 @@ In love with the unknown universe and its stars as well as developing from algor
 
 <h2> O que o usuário deve esperar deste framework?</h2>
 
-- Codigo limpo;
+- Código limpo;
 - Boa legibilidade e entendimento;
 - Boa performace para manuseio.
 
