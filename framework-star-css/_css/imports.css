@@ -63,8 +63,8 @@
    @import './_component/components/comp-offCanvas.css';
    @import './_component/components/comp-overlay.css';
    @import './_component/components/comp-pagination.css';
+   @import './_component/components/comp-preloader.css';
    @import './_component/components/comp-progress.css';
-   @import './_component/components/comp-spinner.css';
    @import './_component/components/comp-switch.css';
    @import './_component/components/comp-table.css';
    @import './_component/components/comp-typography.css';
