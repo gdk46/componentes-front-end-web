@@ -60,6 +60,8 @@
    @import './_component/components/comp-dotnav.css';
    @import './_component/components/comp-form.css';
    @import './_component/components/comp-modal.css';
+   @import './_component/components/comp-offCanvas.css';
+   @import './_component/components/comp-overlay.css';
    @import './_component/components/comp-pagination.css';
    @import './_component/components/comp-progress.css';
    @import './_component/components/comp-spinner.css';
