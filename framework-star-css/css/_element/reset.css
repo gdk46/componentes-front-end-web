@@ -255,15 +255,6 @@ ul ul {
 }
 
 
-ol {
-  list-style: decimal inside;
-}
-
-ul {
-  list-style: circle inside;
-}
-
-
 table {
   border-spacing: 0;
   display: block;
