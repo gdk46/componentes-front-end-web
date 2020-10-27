@@ -1,4 +1,26 @@
 # Star css
+
+![GitHub](https://img.shields.io/badge/License-MIT-blue) ![GitHub](https://img.shields.io/badge/Version-1.0.0-blue)
+
+<p align="center">
+  <img src="img/icon/star-css1.png" alt="logo"/>
+</p>
+
+> template admin desenvolvido para organizar os componentes do [framework Star css](https://github.com/gdk46/componentes-front-end-web/tree/main/framework-star-css)
+
+## Como rodar o projeto? ##
+
+` 
+    git clone https://github.com/gdk46/StarAdmin.git
+`
+
+ou vá até:
+` 
+    Code e faça o Download Zip
+`
+
+
+
 framework css star
 
 
@@ -125,5 +147,6 @@ _tool:_ mixins and functions used globally;
 
 _utilitie:_ utilities and auxiliary classes capable of replacing any previous thing, for example. hide auxiliary or gambiaras class.
 
-# License/Licença do Projeto
-<a>MIT License</a> © Gleisson Neves
+## License/Licença do Projeto #
+[MIT License](https://github.com/gdk46/componentes-front-end-web/blob/main/framework-star-css/LICENSE) © [Gleisson Neves](https://github.com/gdk46)
+
