@@ -11,7 +11,7 @@
 ## Como rodar o projeto? ##
 
 ` 
-    git clone https://github.com/gdk46/StarAdmin.git
+    git clone https://github.com/gdk46/componentes-front-end-web.git
 `
 
 ou vá até:
