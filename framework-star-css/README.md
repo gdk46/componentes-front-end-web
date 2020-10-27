@@ -6,7 +6,7 @@
   <img src="img/icon/star-css1.png" alt="logo"/>
 </p>
 
-> Versão organizada com template [framework Star css](https://github.com/gdk46/componentes-front-end-web/tree/main/framework-star-css)
+> Versão organizada com template [StarAdmin](https://github.com/gdk46/componentes-front-end-web/tree/main/framework-star-css)
 
 ## Como rodar o projeto? ##
 
