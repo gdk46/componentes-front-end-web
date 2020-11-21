@@ -59,6 +59,7 @@
    @import './_component/layout-draw.css';
    @import './_component/layout-img.css';
    @import './_component/layout-line.css';
+   @import './_component/layout-pigmentation.css';
    @import './_component/layout-position.css';
    @import './_component/layout-shadow.css';
    @import './_component/layout-display.css';
