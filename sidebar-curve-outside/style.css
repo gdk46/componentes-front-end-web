@@ -1,0 +1,271 @@
+/**
+*-----------------------------------------------------------------------
+*  Description : SIDEBAR CURVE OUTSIDE
+*  Version     : 1.0.0
+*-----------------------------------------------------------------------
+*
+* 1. ROOT SETTINGS
+* 2. REST PAGE
+*   2.0. REST PAGE SPECIFIC
+* 3. SIDEBAR
+* 4. TOGGLE
+*
+*
+*
+*/
+
+
+/*--------------------------------------------------------------------
+    1. ROOT SETTINGS
+*---------------------------------------------------------------------*/
+:root {
+  --primary-color: #4d5bf9;
+  --secundary-color:;
+  --white-color: #ffffff;
+  --black-color: #141718;
+  
+  --primary-font: 'Poppins', sans-serif;
+  --secundary-font:'Montserrat', sans-serif;
+  
+  --border-r-20: 20px;
+}
+
+
+/*--------------------------------------------------------------------
+    2. REST PAGE 
+/*---------------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	outline: none;
+	box-sizing: border-box;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+  display:block;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  font-family: var(--secundary-font);
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+
+h2 {
+  font-size: 1.875rem;
+}
+
+h3 {
+  font-size: 1.3125rem;
+}
+
+h4 {
+  font-size: 1.125rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.875rem;
+}
+
+
+/*--------------------------------------------------------------------
+    2.0. REST PAGE SPECIFIC
+/*---------------------------------------------------------------------*/
+
+body {
+  background-color: var(--white-color);
+}
+
+
+/*--------------------------------------------------------------------
+    3. SIDEBAR
+/*---------------------------------------------------------------------*/
+.sidebar {
+  font-family: var(--primary-font);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  background-color: var(--primary-color);
+  width: 70px;
+  border-left: 5px solid var(--primary-color);
+  transition: .5s;
+  overflow-x: hidden;
+}
+
+.sidebar.sidebar-active {
+  width: 250px;
+}
+
+.sidebar ul.sidebar-list {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-left: 5px;
+  padding-top: 40px;
+}
+
+.sidebar ul.sidebar-list .sidebar-list-item {
+  position: relative;
+  width: 100%;
+}
+
+.sidebar ul.sidebar-list .sidebar-list-item span.outside-top {
+  position: absolute;
+  top: -10px;
+  background: var(--white-color);
+  height: 10px;
+  width: 100%;
+  display: none;
+}
+
+.sidebar ul.sidebar-list .sidebar-list-item span.outside-top::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: var(--primary-color);
+  height: 100%;
+  width: 100%;
+  border-bottom-right-radius: 10px;
+}
+
+.sidebar ul.sidebar-list .sidebar-list-item span.outside-bottom {
+  position: absolute;
+  bottom: -10px;
+  left: 0px;
+  background: var(--white-color);
+  height: 10px;
+  width: 100%;
+  display: none;
+}
+
+.sidebar ul.sidebar-list .sidebar-list-item span.outside-bottom::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  background: var(--primary-color);
+  height: 100%;
+  width: 100%;
+  border-top-right-radius: 20px;
+}
+
+
+.sidebar ul.sidebar-list .sidebar-list-item.item-active
+{
+  background-color: var(--white-color);
+  border-top-left-radius: var(--border-r-20);
+  border-bottom-left-radius: var(--border-r-20);
+}
+
+
+.sidebar ul.sidebar-list .sidebar-list-item.item-active span.outside-top,
+.sidebar .sidebar-list .sidebar-list-item.item-active span.outside-bottom
+{
+  display: block;
+}
+
+
+.sidebar ul.sidebar-list .sidebar-list-item .list-item-content {
+  position: relative;
+  display: flex;
+  width: 100%;
+  color: var(--white-color);
+}
+
+.sidebar ul.sidebar-list .sidebar-list-item.item-active .list-item-content {
+  color: var(--primary-color);
+}
+
+.sidebar ul.sidebar-list .sidebar-list-item .list-item-content .item-content-icon {
+  position: relative;
+  display: block;
+  min-width: 60px;
+  height: 60px;
+  line-height: 70px;
+  text-align: center;
+}
+
+.sidebar ul.sidebar-list .sidebar-list-item .list-item-content .item-content-icon i {
+  font-size: 1.5rem;
+}
+
+.sidebar ul.sidebar-list .sidebar-list-item .list-item-content .item-content-title {
+  position: relative;
+  display: block;
+  min-width: 60px;
+  height: 60px;
+  line-height: 65px;
+  padding-left: 10px;
+  white-space: normal;
+}
+
+
+/*--------------------------------------------------------------------
+    3. TOGGLE
+/*---------------------------------------------------------------------*/
+.toggle {
+  position: fixed;
+  top: 45px;
+  right: 20px;
+  height: 50px;
+  width: 50px;
+  border-radius: var(--border-r-20);
+  background-color: var(--primary-color);
+  font-size: 30px;
+  text-align-last: center;
+  color: var(--white-color);
+  padding-top: 5px;
+}
+
+.toggle #close {
+  display: none;
+}
+
+.toggle.toggle-active {
+  background-color: #9d05f4;
+}
+
+.toggle.toggle-active #open {
+  display: none;
+}
+
+.toggle.toggle-active #close {
+  display: block;
+}
