@@ -141,12 +141,12 @@ body {
   padding-top: 40px;
 }
 
-.sidebar ul.sidebar-list .sidebar-list-item {
+.sidebar ul.sidebar-list li.sidebar-list-item {
   position: relative;
   width: 100%;
 }
 
-.sidebar ul.sidebar-list .sidebar-list-item span.outside-top {
+.sidebar ul.sidebar-list li.sidebar-list-item span.outside-top {
   position: absolute;
   top: -10px;
   background: var(--white-color);
@@ -155,7 +155,7 @@ body {
   display: none;
 }
 
-.sidebar ul.sidebar-list .sidebar-list-item span.outside-top::before {
+.sidebar ul.sidebar-list li.sidebar-list-item span.outside-top::before {
   content: "";
   position: absolute;
   top: 0px;
@@ -166,7 +166,7 @@ body {
   border-bottom-right-radius: 10px;
 }
 
-.sidebar ul.sidebar-list .sidebar-list-item span.outside-bottom {
+.sidebar ul.sidebar-list li.sidebar-list-item span.outside-bottom {
   position: absolute;
   bottom: -10px;
   left: 0px;
@@ -176,7 +176,7 @@ body {
   display: none;
 }
 
-.sidebar ul.sidebar-list .sidebar-list-item span.outside-bottom::before {
+.sidebar ul.sidebar-list li.sidebar-list-item span.outside-bottom::before {
   content: "";
   position: absolute;
   top: 0px;
@@ -187,7 +187,7 @@ body {
 }
 
 
-.sidebar ul.sidebar-list .sidebar-list-item.item-active
+.sidebar ul.sidebar-list li.sidebar-list-item.item-active
 {
   background-color: var(--white-color);
   border-top-left-radius: var(--border-r-20);
@@ -195,25 +195,25 @@ body {
 }
 
 
-.sidebar ul.sidebar-list .sidebar-list-item.item-active span.outside-top,
-.sidebar .sidebar-list .sidebar-list-item.item-active span.outside-bottom
+.sidebar ul.sidebar-list li.sidebar-list-item.item-active span.outside-top,
+.sidebar ul.sidebar-list li.sidebar-list-item.item-active span.outside-bottom
 {
   display: block;
 }
 
 
-.sidebar ul.sidebar-list .sidebar-list-item .list-item-content {
+.sidebar ul.sidebar-list li.sidebar-list-item a.list-item-content {
   position: relative;
   display: flex;
   width: 100%;
   color: var(--white-color);
 }
 
-.sidebar ul.sidebar-list .sidebar-list-item.item-active .list-item-content {
+.sidebar ul.sidebar-list li.sidebar-list-item.item-active a.list-item-content {
   color: var(--primary-color);
 }
 
-.sidebar ul.sidebar-list .sidebar-list-item .list-item-content .item-content-icon {
+.sidebar ul.sidebar-list li.sidebar-list-item a.list-item-content span.item-content-icon {
   position: relative;
   display: block;
   min-width: 60px;
@@ -222,11 +222,11 @@ body {
   text-align: center;
 }
 
-.sidebar ul.sidebar-list .sidebar-list-item .list-item-content .item-content-icon i {
+.sidebar ul.sidebar-list li.sidebar-list-item a.list-item-content span.item-content-icon i {
   font-size: 1.5rem;
 }
 
-.sidebar ul.sidebar-list .sidebar-list-item .list-item-content .item-content-title {
+.sidebar ul.sidebar-list li.sidebar-list-item a.list-item-content span.item-content-title {
   position: relative;
   display: block;
   min-width: 60px;
